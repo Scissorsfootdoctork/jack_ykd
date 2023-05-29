@@ -1,0 +1,30 @@
+/* .dv-scroll-board .header {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    background-color:'#fafafa' !important;
+} */
+
+.dv-scroll-board .rows .ceil {
+    padding: 0 10px;
+    /* box-sizing: border-box; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 'solid 1px #ccc';
+}
+
+
+
+.fullStaffWork .dv-scroll-board .header {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    background-color: '#fafafa' !important;
+}
+
+.fullStaffWork .dv-scroll-board .rows .row-item {
+  display: flex;
+  font-size: 40px;
+  transition: all 0.3s;
+}

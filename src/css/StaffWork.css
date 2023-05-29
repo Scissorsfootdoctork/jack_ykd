@@ -1,0 +1,35 @@
+.dv-scroll-board .header {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    background-color:'#fafafa' !important;
+}
+
+.dv-scroll-board .rows .ceil {
+    padding: 0 10px;
+    /* box-sizing: border-box; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 'solid 1px #ccc';
+}
+
+.dv-scroll-board .header {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    background-color: '#fafafa' !important;
+}
+
+     .dv-scroll-board .header {
+      display: flex;
+      flex-direction: row;
+      font-size: 24px;
+      background-color: '#fafafa' !important;
+  }
+
+  .dv-scroll-board .rows .row-item {
+    display: flex;
+    font-size: 24px;
+    transition: all 0.3s;
+}

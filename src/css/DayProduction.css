@@ -1,0 +1,45 @@
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+    position: relative;
+    padding: 8px 16px !important;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.ant-table-title {
+    padding: 0px 0px !important;
+}
+
+.ant-table-footer {
+    padding: 8px 16px !important;
+    color: rgba(0, 0, 0, 0.85);
+    background: #fafafa;
+}
+
+.ant-descriptions-bordered .ant-descriptions-item-label, .ant-descriptions-bordered .ant-descriptions-item-content {
+    padding: 8px 12px !important;
+    border-right: 1px solid #f0f0f0;
+    text-align: center;
+}
+
+.ant-table.ant-table-bordered > .ant-table-title {
+    border: 0px solid #f0f0f0 !important;
+    border-bottom: 0;
+}
+
+/* .ant-table {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    font-size: 14px;
+    background:none !important; 
+    border-radius: 2px;
+} */
+
+/* .ant-card-body {
+    padding: 12px 24px !important;
+} */

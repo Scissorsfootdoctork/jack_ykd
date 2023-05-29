@@ -1,0 +1,25 @@
+.ant-card-head-title {
+    display: inline-block;
+    flex: 1 1;
+    padding: 2px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 800;
+    text-align: center;
+    font-size: 24px;
+}
+
+.inputStyle{
+background:linear-gradient(to left, rgb(4, 172, 247), rgb(4, 172, 247)) left top no-repeat, 
+linear-gradient(to bottom, rgb(4, 172, 247), rgb(4, 172, 247)) left top no-repeat, 
+linear-gradient(to left, rgb(4, 172, 247), rgb(4, 172, 247)) right top no-repeat,
+linear-gradient(to bottom, rgb(4, 172, 247), rgb(4, 172, 247)) right top no-repeat, 
+linear-gradient(to left, rgb(4, 172, 247), rgb(4, 172, 247)) left bottom no-repeat,
+linear-gradient(to bottom, rgb(4, 172, 247), rgb(4, 172, 247)) left bottom no-repeat,
+linear-gradient(to left, rgb(4, 172, 247), rgb(4, 172, 247)) right bottom no-repeat,
+linear-gradient(to left, rgb(4, 172, 247), rgb(4, 172, 247)) right bottom no-repeat;
+  /*设置大小*/
+  background-size: 2px 8px, 8px 2px, 2px 8px, 8px 2px,2px 8px, 8px 2px, 2px 8px, 8px 2px;
+    }
+
